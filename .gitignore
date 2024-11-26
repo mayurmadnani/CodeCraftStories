@@ -1,0 +1,75 @@
+staging/
+
+# General OS-specific files
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Java specific
+*.class
+*.jar
+*.war
+*.log
+*.iml
+
+# Maven specific
+target/
+dependency-reduced-pom.xml
+release.properties
+*.log
+mvnw
+mvnw.cmd
+/.mvn/
+!**/src/main/**
+
+# Gradle specific
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA specific
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Python specific
+*.pyc
+__pycache__/
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Virtual environments
+.env
+.venv
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+
+# MyPy
+.mypy_cache/
+
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*~
