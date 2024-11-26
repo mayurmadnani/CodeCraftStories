@@ -1,0 +1,218 @@
+:root {
+    --primary-color: #1877F2;
+    --secondary-color: #166FE5;
+    --text-color: #050505;
+    --background-color: #F0F2F5;
+    --section-bg: #FFFFFF;
+    --hover-bg: #F2F3F5;
+    --border-color: #CED0D4;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--background-color);
+}
+
+.hero {
+    background: var(--primary-color);
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.profile-image {
+    border: 4px solid white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Card Styles */
+.skill-card, .project-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+.skill-card:hover, .project-card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transform: translateY(-4px);
+}
+
+/* Project Card Specific */
+.project-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border-color);
+}
+
+.project-content {
+    padding: 16px;
+}
+
+.project-content h3 {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.project-content p {
+    color: #65676B;
+    margin: 8px 0;
+}
+
+/* Project Links */
+.project-links {
+    margin-top: 15px;
+    display: flex;
+    gap: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-color);
+}
+
+.project-link {
+    flex: 1;
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: all 0.2s;
+    text-decoration: none;
+}
+
+.project-link.primary, .project-link.secondary {
+    background: var(--primary-color);
+    color: #FFFFFF !important;
+}
+
+.project-link.primary:hover, .project-link.secondary:hover {
+    background: var(--secondary-color);
+}
+
+.project-link i {
+    color: #FFFFFF !important;
+}
+
+/* Project Highlights */
+.project-highlights {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 12px 0;
+}
+
+.highlight {
+    background: var(--hover-bg);
+    color: #65676B;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 0.9rem;
+}
+
+/* Timeline */
+.timeline-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    border: 1px solid var(--border-color);
+}
+
+.timeline-content h3 {
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.timeline-content h4 {
+    color: #65676B;
+    font-weight: 500;
+}
+
+.timeline-content .date {
+    color: #65676B;
+    font-size: 0.9rem;
+}
+
+.timeline-content .duration {
+    display: inline-block;
+    background: var(--hover-bg);
+    color: #65676B;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 0.9rem;
+    margin: 8px 0;
+}
+
+/* Updated Social Links */
+.social-links {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    border: 1px solid var(--border-color);
+}
+
+.social-links a {
+    background: var(--hover-bg);
+    color: var(--primary-color) !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links a:hover {
+    background: #E4E6E9;
+    transform: scale(1.05);
+}
+
+.social-links i {
+    font-size: 1.5rem;
+}
+
+/* Skill Level */
+.skill-level {
+    height: 6px;
+    background: var(--hover-bg);
+    border-radius: 3px;
+    margin-top: 12px;
+    overflow: hidden;
+}
+
+.skill-level-fill {
+    height: 100%;
+    background: var(--primary-color);
+    border-radius: 3px;
+    transition: width 0.8s ease;
+}
+
+/* Section Headers */
+.section h2 {
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Name styling */
+.name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    margin-bottom: 0.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    font-weight: 500;
+    opacity: 0.9;
+} 

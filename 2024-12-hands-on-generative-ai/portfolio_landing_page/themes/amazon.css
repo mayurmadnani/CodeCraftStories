@@ -1,0 +1,104 @@
+:root {
+    --primary-color: #FF9900;
+    --secondary-color: #146EB4;
+    --text-color: #111111;
+    --background-color: #EAEDED;
+    --section-bg: #ffffff;
+}
+
+.hero {
+    background: linear-gradient(to bottom, #232F3E 0%, #131921 100%);
+}
+
+.skill-card, .project-card {
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #D5D9D9;
+}
+
+.project-links a {
+    background: #FFD814;
+    border-color: #FCD200;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: #0F1111;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 50px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #FF9900;
+}
+
+.timeline-item {
+    position: relative;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border: 1px solid #D5D9D9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -54px;
+    top: 20px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #FF9900;
+    border: 4px solid #fff;
+    box-shadow: 0 0 0 1px #D5D9D9;
+}
+
+.timeline-content h3 {
+    color: #232F3E;
+    margin-bottom: 10px;
+}
+
+.timeline-content .date {
+    color: #565959;
+    font-size: 0.9em;
+}
+
+.timeline-content .duration {
+    display: inline-block;
+    background: #232F3E;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    margin: 10px 0;
+}
+
+/* Name styling */
+.name {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #FF9900;
+    background: linear-gradient(45deg, #FF9900, #FFB700);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+} 
