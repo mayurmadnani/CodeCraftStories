@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miguel Ángel Durán - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="me.png" alt="Profile Picture" class="profile-pic">
+      <h1>Miguel Ángel Durán</h1>
+      <p>Full-Stack Developer & Content Creator</p>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>+15 years of experience as a web developer. Currently, I am a content creator and development communicator based
+      in Barcelona, Spain. I have experience accelerating startups' growth and leading teams in multinational companies.
+    </p>
+    <ul>
+      <li>Email: <a href="mailto:miduga@gmail.com">miduga@gmail.com</a></li>
+      <li>Phone: +34 688888888</li>
+      <li>Location: el Prat de Llobregat, Spain</li>
+      <li>Website: <a href="https://midu.dev" target="_blank">https://midu.dev</a></li>
+    </ul>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3><a href="https://mars.codes" target="_blank">mars.codes</a></h3>
+      <p>Interactive story with programming challenges to travel to Mars.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://advent.js/dev" target="_blank">AdventJS</a></h3>
+      <p>JavaScript programming challenges for every day of December until Christmas.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://codember.dev" target="_blank">Codember</a></h3>
+      <p>Interactive programming game with challenges and secrets.</p>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  <footer>
+    <p>© 2024 Miguel Ángel Durán. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
