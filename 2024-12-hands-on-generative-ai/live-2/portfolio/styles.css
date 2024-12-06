@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.work-item, .projects ul {
+    margin-bottom: 20px;
+}
+
+.projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects li {
+    margin-bottom: 8px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+}
