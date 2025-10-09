@@ -1,0 +1,4 @@
+[submodule "2025-09-intent-to-kubectl"]
+	path = 2025-09-intent-to-kubectl
+	url = git@github.com:mayurmadnani/workshop-gcp-intent-to-agents.git
+	branch = kubectl-agent
