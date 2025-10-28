@@ -2,3 +2,11 @@
 	path = 2025-09-intent-to-kubectl
 	url = git@github.com:mayurmadnani/workshop-gcp-intent-to-agents.git
 	branch = kubectl-agent
+[submodule "2025-10-api-to-ondevice-kmp-gemma/app-kmp-GolpoAI"]
+	path = 2025-10-api-to-ondevice-kmp-gemma/app-kmp-GolpoAI
+	url = git@github.com:RivuChk/GolpoAI.git
+	branch = main
+[submodule "2025-10-api-to-ondevice-kmp-gemma/app-gemma-MicroFables"]
+	path = 2025-10-api-to-ondevice-kmp-gemma/app-gemma-MicroFables
+	url = git@github.com:mayurmadnani/MicroFables.git
+	branch = main
