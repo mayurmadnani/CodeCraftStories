@@ -10,3 +10,7 @@
 	path = 2025-10-api-to-ondevice-kmp-gemma/app-gemma-MicroFables
 	url = git@github.com:mayurmadnani/MicroFables.git
 	branch = main
+[submodule "2025-11-oneliners-into-actionable-tickets/intent-to-ticket"]
+	path = 2025-11-oneliners-into-actionable-tickets/intent-to-ticket
+	url = git@github.com:mayurmadnani/workshop-gcp-intent-to-agents.git
+	branch = TicketTuner
