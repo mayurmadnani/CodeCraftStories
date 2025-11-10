@@ -14,3 +14,7 @@
 	path = 2025-11-oneliners-into-actionable-tickets/intent-to-ticket
 	url = git@github.com:mayurmadnani/workshop-gcp-intent-to-agents.git
 	branch = TicketTuner
+[submodule "2025-11-gemma-finetune-storygenerators/gemma-lora-storygenerators"]
+	path = 2025-11-gemma-finetune-storygenerators/gemma-lora-storygenerators
+	url = git@github.com:mayurmadnani/MicroFables.git
+	branch = main
