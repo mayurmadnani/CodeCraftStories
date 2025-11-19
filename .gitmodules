@@ -18,3 +18,7 @@
 	path = 2025-11-gemma-finetune-storygenerators/gemma-lora-storygenerators
 	url = git@github.com:mayurmadnani/MicroFables.git
 	branch = main
+[submodule "2025-11-supercharge-documentation/intent-to-docs"]
+	path = 2025-11-supercharge-documentation/intent-to-docs
+	url = git@github.com:mayurmadnani/workshop-gcp-intent-to-agents.git
+	branch = NoteNinja
