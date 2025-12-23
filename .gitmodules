@@ -30,3 +30,7 @@
 	path = 2025-12-small-model-big-impact/gemma-finetune-ollama-generation
 	url = git@github.com:mayurmadnani/MicroFables.git
 	branch = main
+[submodule "2025-12-conversational-database/intent-to-sql"]
+	path = 2025-12-conversational-database/intent-to-sql
+	url = git@github.com:mayurmadnani/workshop-gcp-intent-to-agents.git
+	branch = SQLSense
