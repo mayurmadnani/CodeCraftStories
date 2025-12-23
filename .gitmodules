@@ -22,3 +22,7 @@
 	path = 2025-11-supercharge-documentation/intent-to-docs
 	url = git@github.com:mayurmadnani/workshop-gcp-intent-to-agents.git
 	branch = NoteNinja
+[submodule "2025-12-cloud-to-pocket/gemma-finetune-generation"]
+	path = 2025-12-cloud-to-pocket/gemma-finetune-generation
+	url = git@github.com:mayurmadnani/MicroFables.git
+	branch = main
