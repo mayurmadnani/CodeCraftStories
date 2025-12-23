@@ -26,3 +26,7 @@
 	path = 2025-12-cloud-to-pocket/gemma-finetune-generation
 	url = git@github.com:mayurmadnani/MicroFables.git
 	branch = main
+[submodule "2025-12-small-model-big-impact/gemma-finetune-ollama-generation"]
+	path = 2025-12-small-model-big-impact/gemma-finetune-ollama-generation
+	url = git@github.com:mayurmadnani/MicroFables.git
+	branch = main
