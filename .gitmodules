@@ -34,3 +34,7 @@
 	path = 2025-12-conversational-database/intent-to-sql
 	url = git@github.com:mayurmadnani/workshop-gcp-intent-to-agents.git
 	branch = SQLSense
+[submodule "2025-12-fdp-cloud-serverless/demo-cloud-serverless-regex-app"]
+	path = 2025-12-fdp-cloud-serverless/demo-cloud-serverless-regex-app
+	url = git@github.com:mayurmadnani/workshop-gcp-intent-to-agents.git
+	branch = PatternPilot
