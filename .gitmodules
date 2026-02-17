@@ -38,3 +38,7 @@
 	path = 2025-12-fdp-cloud-serverless/demo-cloud-serverless-regex-app
 	url = git@github.com:mayurmadnani/workshop-gcp-intent-to-agents.git
 	branch = PatternPilot
+[submodule "2026-01-agenti-ai-systems/workshop-multi-agent-ai"]
+	path = 2026-01-agenti-ai-systems/workshop-multi-agent-ai
+	url = git@github.com:mayurmadnani/multi-agent-debate.git
+	branch = main
