@@ -42,3 +42,7 @@
 	path = 2026-01-agenti-ai-systems/workshop-multi-agent-ai
 	url = git@github.com:mayurmadnani/multi-agent-debate.git
 	branch = main
+[submodule "2026-01-multi-agent-ai-systems/workshop-multi-agentic-debate"]
+	path = 2026-01-multi-agent-ai-systems/workshop-multi-agentic-debate
+	url = git@github.com:mayurmadnani/multi-agent-debate.git
+	branch = main
