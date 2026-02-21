@@ -46,3 +46,7 @@
 	path = 2026-01-multi-agent-ai-systems/workshop-multi-agentic-debate
 	url = git@github.com:mayurmadnani/multi-agent-debate.git
 	branch = main
+[submodule "2026-02-philosophers-debate-gemma/philosophical-debate-with-gemma"]
+	path = 2026-02-philosophers-debate-gemma/philosophical-debate-with-gemma
+	url = git@github.com:mayurmadnani/multi-agent-debate.git
+	branch = main
