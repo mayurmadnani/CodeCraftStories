@@ -50,3 +50,7 @@
 	path = 2026-02-philosophers-debate-gemma/philosophical-debate-with-gemma
 	url = git@github.com:mayurmadnani/multi-agent-debate.git
 	branch = main
+[submodule "2026-slm-finetuning/slm-finetune-lora"]
+	path = 2026-slm-finetuning/slm-finetune-lora
+	url = git@github.com:mayurmadnani/MicroFables.git
+	branch = main
