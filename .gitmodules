@@ -54,3 +54,7 @@
 	path = 2026-slm-finetuning/slm-finetune-lora
 	url = git@github.com:mayurmadnani/MicroFables.git
 	branch = main
+[submodule "2026-04-ai-philosophers-multi-agent/philosophers-multi-agent-ai"]
+	path = 2026-04-ai-philosophers-multi-agent/philosophers-multi-agent-ai
+	url = git@github.com:mayurmadnani/multi-agent-debate.git
+	branch = main
